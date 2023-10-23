@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkblue;
+}
+#h1{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightgreen;
+    border: 10px solid darkorange;
+
+}
+.form-column1 {
+    width: 50%; /* Each column takes up 50% of the form's width */
+    padding: 10px; /* Add some horizontal spacing between form columns */
+    box-sizing: border-box;
+    border: 10px solid darkorange ;
+    background-color: darkmagenta;
+}
+.form-column2 {
+    width: 50%; /* Each column takes up 50% of the form's width */
+    padding: 10px; /* Add some horizontal spacing between form columns */
+    box-sizing: border-box;
+    border: 10px solid darkorange ;
+    background-color: darkmagenta;
+}
+.form-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+}
+form {
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    
+}
+.form-group {
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"],input[type="tel"],
+input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+select {
+    width: 96%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+.password-strength {
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+    font-weight: bold;
+    color: #888;
+}
+#strength-bar {
+    width: 0;
+    height: 5px;
+    background: red; /* Default color for "Weak" */
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin: 5px;
+}
+
+#strength-text {
+    top: 30px;
+    left: 0;
+}
+
+#strength-bar.medium {
+    background: orange;
+}
+
+#strength-bar.strong {
+    background: green;
+}
+.profile-pic-input {
+    display: none;
+}
+.profile-pic-label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: lightcoral;
+}
